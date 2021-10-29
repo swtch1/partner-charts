@@ -6,7 +6,7 @@ apiVersion: v1
 appVersion: 0.9.25
 description: The Speedscale Operator
 home: https://speedscale.com
-icon: https://github.com/speedscale/speedscale/raw/main/logo/gold_logo_only.png
+icon: https://github.com/swtch1/operator-helm/raw/master/logo/gold_logo_only.png
 keywords:
 - speedscale
 - test
