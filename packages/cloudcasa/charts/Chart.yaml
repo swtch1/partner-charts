@@ -1,0 +1,20 @@
+apiVersion: v2
+name: cloudcasa
+version: "2.1.0"
+appVersion: "2.1.0"
+kubeVersion: ">=1.17.0-0"
+description: CloudCasa backup service for Kubernetes and cloud native applications
+home: https://cloudcasa.io
+icon: https://partner-charts.rancher.io/assets/logos/cloudcasa.png
+keywords:
+  - Backup
+  - Catalogic
+  - CloudCasa
+maintainers:
+  - name: catalogicsoftware
+    email: support@cloudcasa.io
+annotations:
+  catalog.cattle.io/certified: partner
+  catalog.cattle.io/release-name: cloudcasa
+  catalog.cattle.io/namespace: cloudcasa-io
+  catalog.cattle.io/display-name: CloudCasa

@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-PACKAGE=speedscale-operator make prepare
-
-make validate
-
