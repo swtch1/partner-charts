@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-set -x
-
-PACKAGE=speedscale-operator make prepare
-make validate
-git commit --all && git add -m "partner chart generation"
-

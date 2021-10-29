@@ -1,35 +1,5 @@
 apiVersion: v1
 entries:
-  Speedscale Operator:
-  - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: Speedscale Operator
-      catalog.cattle.io/release-name: speedscale-operator
-    apiVersion: v1
-    appVersion: 0.9.24
-    created: "2021-10-29T17:28:21.483075-04:00"
-    description: The Speedscale Operator
-    digest: 2f7d025c21380bf8f947e24c8e626f193290ba8f729eec16a38b5577aca6b108
-    home: https://speedscale.com
-    icon: https://github.com/speedscale/speedscale/raw/main/logo/gold_logo_only.png
-    keywords:
-    - speedscale
-    - test
-    - testing
-    - regression
-    - reliability
-    - load
-    - replay
-    - network
-    - traffic
-    kubeVersion: '>= 1.17.0-0'
-    maintainers:
-    - email: support@speedscale.com
-      name: Speedscale Support
-    name: Speedscale Operator
-    urls:
-    - assets/speedscale-operator/Speedscale%20Operator-0.1.0.tgz
-    version: 0.1.0
   ambassador:
   - annotations:
       catalog.cattle.io/certified: partner
@@ -37,7 +7,7 @@ entries:
       catalog.cattle.io/release-name: ambassador
     apiVersion: v1
     appVersion: 1.13.8
-    created: "2021-10-29T17:28:21.281996-04:00"
+    created: "2021-06-23T17:44:55.380609-07:00"
     description: A Helm chart for Datawire Ambassador
     digest: f56e602f017a6e48d2838033b31ce356a47db561fcd9c02e008d06b67be95b90
     home: https://www.getambassador.io/
@@ -69,14 +39,14 @@ entries:
       catalog.cattle.io/release-name: artifactory-ha
     apiVersion: v1
     appVersion: 7.17.5
-    created: "2021-10-29T17:28:21.307974-04:00"
+    created: "2021-08-18T13:16:31.148108-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
     description: Universal Repository Manager supporting all major packaging formats,
       build tools and CI servers.
-    digest: b527b2e58f059c391edb2079f2b3388d2caebb2dedb237c3c1592a3fc403abff
+    digest: 606d9391341cfd9217b868e00420fc1cf89a2802df8934bb7d4613b80fda5142
     home: https://www.jfrog.com/artifactory/
     icon: https://raw.githubusercontent.com/jfrog/charts/master/stable/artifactory-ha/logo/artifactory-logo.png
     keywords:
@@ -97,7 +67,7 @@ entries:
       catalog.cattle.io/release-name: artifactory-ha
     apiVersion: v1
     appVersion: 7.17.5
-    created: "2021-10-29T17:28:21.299059-04:00"
+    created: "2021-06-23T17:44:55.406602-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -126,7 +96,7 @@ entries:
       catalog.cattle.io/release-name: artifactory-ha
     apiVersion: v1
     appVersion: 7.12.6
-    created: "2021-10-29T17:28:21.31684-04:00"
+    created: "2021-06-23T17:44:55.417983-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -156,7 +126,7 @@ entries:
       catalog.cattle.io/release-name: artifactory-ha
     apiVersion: v1
     appVersion: 7.6.3
-    created: "2021-10-29T17:28:21.290398-04:00"
+    created: "2021-06-23T17:44:55.395076-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -195,7 +165,7 @@ entries:
       catalog.cattle.io/release-name: artifactory-jcr
     apiVersion: v1
     appVersion: 7.12.5
-    created: "2021-10-29T17:28:21.345569-04:00"
+    created: "2021-08-18T13:16:31.768355-07:00"
     dependencies:
     - name: artifactory
       repository: file://./charts/artifactory
@@ -224,7 +194,7 @@ entries:
       catalog.cattle.io/release-name: artifactory-jcr
     apiVersion: v1
     appVersion: 7.12.5
-    created: "2021-10-29T17:28:21.336697-04:00"
+    created: "2021-06-23T17:44:55.44209-07:00"
     dependencies:
     - name: artifactory
       repository: https://charts.jfrog.io/
@@ -254,7 +224,7 @@ entries:
       catalog.cattle.io/release-name: artifactory-jcr
     apiVersion: v1
     appVersion: 7.6.3
-    created: "2021-10-29T17:28:21.327696-04:00"
+    created: "2021-06-23T17:44:55.431809-07:00"
     dependencies:
     - name: artifactory
       repository: https://charts.jfrog.io/
@@ -296,7 +266,7 @@ entries:
       catalog.cattle.io/release-name: aws-event-sources
     apiVersion: v2
     appVersion: 1.7.0
-    created: "2021-10-29T17:28:21.346424-04:00"
+    created: "2021-08-23T11:24:51.230234+05:30"
     description: AWS Event Sources controller for Kubernetes
     digest: 3b5cb9e51589262bff329d41439ff65863757448f6f35fd982aa096b4a3cc3b7
     home: https://github.com/triggermesh/aws-event-sources
@@ -327,7 +297,7 @@ entries:
       catalog.cattle.io/release-name: citrix-adc-istio-ingress-gateway
     apiVersion: v2
     appVersion: 1.11.0
-    created: "2021-10-29T17:28:21.347391-04:00"
+    created: "2021-10-20T19:31:46.936224057+05:30"
     description: A Helm chart for Citrix ADC as Ingress Gateway installation in Istio
       Service Mesh on Kubernetes platform
     digest: f4b2f27fdcfbc79b1f201f0fac579bc55205e861f1022b206c202b0d1792c6d8
@@ -352,7 +322,7 @@ entries:
       catalog.cattle.io/release-name: citrix-adc-istio-ingress-gateway
     apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-10-29T17:28:21.348064-04:00"
+    created: "2021-06-23T17:44:55.442927-07:00"
     description: A Helm chart for Citrix ADC as Ingress Gateway installation in Istio
       Service Mesh on Kubernetes platform
     digest: 41121dad6ac7271f2ada14e5f8cbc7d398e1e656db95e1937ab1dc5bab563e4c
@@ -376,7 +346,7 @@ entries:
       catalog.cattle.io/release-name: citrix-cpx-istio-sidecar-injector
     apiVersion: v2
     appVersion: 1.11.0
-    created: "2021-10-29T17:28:21.348847-04:00"
+    created: "2021-10-20T21:24:39.548842707+05:30"
     description: A Helm chart to deploy resources which install Citrix ADC CPX in
       Istio Service Mesh as sidecar in application pod
     digest: 1db7acf729270779c316cef63f55237fba3d6aef78ca0d9966fb447ad3a20fe8
@@ -402,7 +372,7 @@ entries:
       catalog.cattle.io/release-name: citrix-cpx-with-ingress-controller
     apiVersion: v1
     appVersion: 1.8.28
-    created: "2021-10-29T17:28:21.349753-04:00"
+    created: "2021-06-23T17:44:55.443962-07:00"
     description: A Helm chart for Citrix ADC CPX with Citrix ingress Controller running
       as sidecar.
     digest: 298c1472ff1afea8333346f2d67dc4bb6fb64779b4b90378b18e57180995286e
@@ -419,6 +389,30 @@ entries:
     urls:
     - assets/citrix-cpx-with-ingress-controller/citrix-cpx-with-ingress-controller-1.8.2800.tgz
     version: 1.8.2800
+  citrix-k8s-cpx-ingress-controller:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/namespace: citrix-k8s-cpx-ingress-controller
+      catalog.cattle.io/release-name: citrix-k8s-cpx-ingress-controller
+    apiVersion: v1
+    appVersion: 1.8.28
+    created: "2020-09-10T18:19:56.040802801Z"
+    description: A Helm chart for Citrix ADC CPX with Citrix ingress Controller running
+      as sidecar.
+    digest: 0a54474018a40043d75aad6209bdc585a3ba2cd9d1fa6c2131536091ec99bfd0
+    home: https://www.citrix.com
+    icon: https://raw.githubusercontent.com/citrix/citrix-helm-charts/gh-pages/icon.png
+    maintainers:
+    - email: priyanka.sharma@citrix.com
+      name: priyankash-citrix
+    - email: subash.dangol@citrix.com
+      name: subashd
+    name: citrix-k8s-cpx-ingress-controller
+    sources:
+    - https://github.com/citrix/citrix-k8s-ingress-controller
+    urls:
+    - assets/citrix-k8s-cpx-ingress-controller/citrix-k8s-cpx-ingress-controller-1.8.2800.tgz
+    version: 1.8.2800
   cloudcasa:
   - annotations:
       catalog.cattle.io/certified: partner
@@ -427,7 +421,7 @@ entries:
       catalog.cattle.io/release-name: cloudcasa
     apiVersion: v2
     appVersion: 2.1.0
-    created: "2021-10-29T17:28:21.354562-04:00"
+    created: "2021-10-13T22:44:01.053750183+05:30"
     description: CloudCasa backup service for Kubernetes and cloud native applications
     digest: 5147eb86cf65305e90371cf3b7e3cf3600ccfda043eb33f47acb6e583067a26d
     home: https://cloudcasa.io
@@ -451,7 +445,7 @@ entries:
       catalog.cattle.io/release-name: cloudcasa
     apiVersion: v2
     appVersion: 2.0.0
-    created: "2021-10-29T17:28:21.35365-04:00"
+    created: "2021-08-18T13:16:33.160593-07:00"
     description: CloudCasa backup service for Kubernetes and cloud native applications
     digest: 16dd755f9a50fee2699b9fcc86358f6d814a29c9d140724268fee037ea9c17cd
     home: https://cloudcasa.io
@@ -475,7 +469,7 @@ entries:
       catalog.cattle.io/release-name: cloudcasa
     apiVersion: v2
     appVersion: "1.0"
-    created: "2021-10-29T17:28:21.352516-04:00"
+    created: "2021-06-23T17:44:55.447795-07:00"
     description: CloudCasa backup service for Kubernetes and cloud native applications
     digest: 9bb36abfa6db450688840c60a4181791da4f4d637f5a48e7aee93238f4d471c1
     home: https://cloudcasa.io
@@ -498,7 +492,7 @@ entries:
       catalog.cattle.io/release-name: cloudcasa
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-10-29T17:28:21.350867-04:00"
+    created: "2021-06-23T17:44:55.446342-07:00"
     description: CloudCasa backup service for Kubernetes and cloud native applications
     digest: be87ab1b0e0e9c74998d5d3e5041f75ac732174389ee3bf68a3d8016aace786f
     home: https://cloudcasa.io
@@ -521,7 +515,7 @@ entries:
       catalog.cattle.io/release-name: cockroachdb
     apiVersion: v1
     appVersion: 20.1.3
-    created: "2021-10-29T17:28:21.355673-04:00"
+    created: "2021-06-23T17:44:55.449351-07:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: ba272eab2f61dd699854035f1bfdfafb15cd0b99eefc2b8486702dc990202bea
     home: https://www.cockroachlabs.com
@@ -542,7 +536,7 @@ entries:
       catalog.cattle.io/release-name: confluent-for-kubernetes
     apiVersion: v1
     appVersion: 2.0.2
-    created: "2021-10-29T17:28:21.362817-04:00"
+    created: "2021-09-03T16:12:20.007868-04:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 14d6eb38fca10b8ed7fca9f3c256993b8e3560211f96733a1ab6318fa8e2cd83
     home: https://www.confluent.io/
@@ -569,7 +563,7 @@ entries:
       catalog.cattle.io/release-name: streamsets
     apiVersion: v1
     appVersion: 3.8.0
-    created: "2021-10-29T17:28:21.486318-04:00"
+    created: "2021-09-02T18:25:02.453879-07:00"
     description: Control Agent for managing StreamSets Control Hub Deployments
     digest: c5e32bc0c88d0bf18be81e4f92020e01f42641901db8c2be069b02a300cd8c04
     home: https://streamsets.com
@@ -592,7 +586,7 @@ entries:
       catalog.cattle.io/release-name: streamsets
     apiVersion: v1
     appVersion: 3.8.0
-    created: "2021-10-29T17:28:21.48579-04:00"
+    created: "2021-06-23T17:44:55.488571-07:00"
     description: Control Agent for managing StreamSets Control Hub Deployments
     digest: 5289b93c60200cc9896b2e903c4143a8db1d312409ab86da5dc77df693bc395f
     home: https://streamsets.com
@@ -620,7 +614,7 @@ entries:
       catalog.cattle.io/release-name: kubecost
     apiVersion: v2
     appVersion: 1.83.2
-    created: "2021-10-29T17:28:21.433052-04:00"
+    created: "2021-08-26T13:33:52.685132+01:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 10d605184b7cd7887d10e11232d3219d818c8034f0afa2a7e39755fa059f0421
@@ -634,7 +628,7 @@ entries:
       catalog.cattle.io/release-name: kubecost
     apiVersion: v1
     appVersion: 1.70.0
-    created: "2021-10-29T17:28:21.420058-04:00"
+    created: "2021-08-18T13:16:37.922411-07:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 867a45f56ac4526f6c297022706d2cfc29507191eae8a9bb62aeca67d46afd8a
@@ -648,7 +642,7 @@ entries:
       catalog.cattle.io/release-name: kubecost
     apiVersion: v1
     appVersion: 1.70.0
-    created: "2021-10-29T17:28:21.410305-04:00"
+    created: "2021-06-23T17:44:55.485546-07:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: b633966fdce3fa9d0c899ff38b6090ac687ac1070000c2742e6834b7430c9975
@@ -663,7 +657,7 @@ entries:
       catalog.cattle.io/release-name: csi-wekafsplugin
     apiVersion: v2
     appVersion: 0.6.4
-    created: "2021-10-29T17:28:21.36363-04:00"
+    created: "2021-08-18T13:16:33.713178-07:00"
     description: Helm chart for Deployment of WekaIO Container Storage Interface (CSI)
       plugin for WekaFS - the world fastest filesystem
     digest: b73b147bda8e9fe1d31a7ba13c62a65d98a9f62ed1ff0d5c289a363c5ae3c591
@@ -681,7 +675,7 @@ entries:
       catalog.cattle.io/release-name: csi-wekafsplugin
     apiVersion: v2
     appVersion: 0.6.4
-    created: "2021-10-29T17:28:21.363237-04:00"
+    created: "2021-06-23T17:44:55.449955-07:00"
     description: Helm chart for Deployment of WekaIO Container Storage Interface (CSI)
       plugin for WekaFS - the world fastest filesystem
     digest: 78feaf34b9a8d8cb5ddcf3928e5782ecb6da0d4de94bdfc9b65162be3e357a7d
@@ -700,7 +694,7 @@ entries:
       catalog.cattle.io/release-name: datadog
     apiVersion: v1
     appVersion: "7"
-    created: "2021-10-29T17:28:21.371423-04:00"
+    created: "2021-08-18T13:16:34.412927-07:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -728,7 +722,7 @@ entries:
       catalog.cattle.io/release-name: datadog
     apiVersion: v1
     appVersion: "7"
-    created: "2021-10-29T17:28:21.366608-04:00"
+    created: "2021-06-23T17:44:55.454771-07:00"
     dependencies:
     - condition: datadog.kubeStateMetricsEnabled
       name: kube-state-metrics
@@ -758,7 +752,7 @@ entries:
       catalog.cattle.io/release-name: dynatrace-oneagent-operator
     apiVersion: v2
     appVersion: 0.8.0
-    created: "2021-10-29T17:28:21.375205-04:00"
+    created: "2021-08-18T13:16:35.030571-07:00"
     description: The Dynatrace OneAgent Operator Helm chart for Kubernetes and Openshift
     digest: 2a34c4236cb37e13f159d9d9701a0a907b03f5fc09552e70f76669e3004c878d
     home: https://www.dynatrace.com/
@@ -782,7 +776,7 @@ entries:
       catalog.cattle.io/release-name: dynatrace-oneagent-operator
     apiVersion: v2
     appVersion: 0.8.0
-    created: "2021-10-29T17:28:21.373329-04:00"
+    created: "2021-06-23T17:44:55.4562-07:00"
     description: The Dynatrace OneAgent Operator Helm chart for Kubernetes and Openshift
     digest: 7daf37239c0ca6f903d0e92bcb0ffff02584872f45e2e83822bb986dbf61ee58
     home: https://www.dynatrace.com/
@@ -808,7 +802,7 @@ entries:
       catalog.cattle.io/release-name: falcon-helm
     apiVersion: v2
     appVersion: 0.9.3
-    created: "2021-10-29T17:28:21.375999-04:00"
+    created: "2021-06-23T17:44:55.456824-07:00"
     description: A Helm chart to deploy CrowdStrike Falcon sensors into Kubernetes
       clusters.
     digest: cb98b5a7e6020ed2d06db01575e76b4cfd3e94549805323e65f551a832a1254a
@@ -840,7 +834,7 @@ entries:
       catalog.cattle.io/release-name: federatorai
     apiVersion: v1
     appVersion: 4.7.1-ga
-    created: "2021-10-29T17:28:21.381254-04:00"
+    created: "2021-10-12T09:42:50.343645681+08:00"
     description: Federator.ai helps enterprises optimize cloud resources, maximize
       application performance, and save significant cost without excessive over-provisioning
       or under-provisioning of resources, meeting the service-level requirements of
@@ -871,12 +865,12 @@ entries:
       catalog.cattle.io/release-name: federatorai
     apiVersion: v1
     appVersion: 4.7.0-ga
-    created: "2021-10-29T17:28:21.380332-04:00"
+    created: "2021-09-10T06:34:12.178876142+08:00"
     description: Federator.ai helps enterprises optimize cloud resources, maximize
       application performance, and save significant cost without excessive over-provisioning
       or under-provisioning of resources, meeting the service-level requirements of
       their applications.
-    digest: f376807a8794f86fd1f8e0585b3bc2301c7982641df2ff1fe64a68087c63670c
+    digest: a8257bbc4a0dd7687ddd1ffb619203acd01a73d557f1653bf0ef672cdb2baa32
     home: https://www.prophetstor.com
     icon: https://raw.githubusercontent.com/prophetstor-ai/public/master/images/logo.png
     keywords:
@@ -902,7 +896,7 @@ entries:
       catalog.cattle.io/release-name: federatorai
     apiVersion: v1
     appVersion: 4.6.1-ga
-    created: "2021-10-29T17:28:21.378956-04:00"
+    created: "2021-08-25T15:38:01.813632995+08:00"
     description: Federator.ai helps enterprises optimize cloud resources, maximize
       application performance, and save significant cost without excessive over-provisioning
       or under-provisioning of resources, meeting the service-level requirements of
@@ -933,7 +927,7 @@ entries:
       catalog.cattle.io/release-name: federatorai
     apiVersion: v1
     appVersion: 4.5.1-ga
-    created: "2021-10-29T17:28:21.377451-04:00"
+    created: "2021-06-23T17:44:55.458574-07:00"
     description: Federator.ai helps enterprises optimize cloud resources, maximize
       application performance, and save significant cost without excessive over-provisioning
       or under-provisioning of resources, meeting the service-level requirements of
@@ -972,7 +966,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: "2.1"
-    created: "2021-10-29T17:28:21.381982-04:00"
+    created: "2021-10-12T22:35:43.135139329+03:00"
     description: Simplifying FPGA management in Kubernetes
     digest: 40df8ab46ea3bac4ccf43eac89f99ceee7ac5e3c0f7571154b07af46a57aa588
     home: https://inaccel.com
@@ -999,7 +993,7 @@ entries:
       catalog.cattle.io/release-name: haproxy
     apiVersion: v2
     appVersion: 1.6.7
-    created: "2021-10-29T17:28:21.387915-04:00"
+    created: "2021-09-23T15:15:23.7564039Z"
     description: A Helm chart for HAProxy Kubernetes Ingress Controller
     digest: c79dedb80de7bc59351c8932a2749089a487a44d7bcedd9074a5bbe4a1763f03
     home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
@@ -1028,7 +1022,7 @@ entries:
       catalog.cattle.io/release-name: haproxy
     apiVersion: v1
     appVersion: 1.6.5
-    created: "2021-10-29T17:28:21.386404-04:00"
+    created: "2021-08-24T05:25:21.3795971Z"
     description: A Helm chart for HAProxy Kubernetes Ingress Controller
     digest: a4d21d80e0c625959fa8dbe47334173c27283c5d9296ef323cde638794d85275
     home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
@@ -1055,7 +1049,7 @@ entries:
       catalog.cattle.io/release-name: haproxy
     apiVersion: v1
     appVersion: 1.5.4
-    created: "2021-10-29T17:28:21.38492-04:00"
+    created: "2021-06-23T17:44:55.461488-07:00"
     description: A Helm chart for HAProxy Kubernetes Ingress Controller
     digest: fd110caa557e3b385d407578a4e7693429d5bc722d233f51f19ca58840372ca7
     home: https://github.com/haproxytech/helm-charts/tree/master/kubernetes-ingress
@@ -1082,7 +1076,7 @@ entries:
       catalog.cattle.io/release-name: haproxy
     apiVersion: v1
     appVersion: 1.5.1
-    created: "2021-10-29T17:28:21.383747-04:00"
+    created: "2021-06-23T17:44:55.46002-07:00"
     description: A Helm chart for HAProxy Kubernetes Ingress Controller
     digest: 29aa101f4851cac5b94d2de40c961d0f24c90bb361c0bf1bc17d3244ddf92046
     home: https://github.com/haproxytech/helm-charts/tree/master/kubernetes-ingress
@@ -1109,7 +1103,7 @@ entries:
       catalog.cattle.io/release-name: haproxy
     apiVersion: v1
     appVersion: 1.4.6
-    created: "2021-10-29T17:28:21.388882-04:00"
+    created: "2021-06-23T17:44:55.462834-07:00"
     description: A Helm chart for HAProxy Kubernetes Ingress Controller
     digest: f4b11d983e29c3748e04fba10d626277cc4c35c977a2bda016925a326af38b54
     home: https://github.com/haproxytech/helm-charts/tree/master/kubernetes-ingress
@@ -1143,7 +1137,7 @@ entries:
       catalog.cattle.io/release-name: hpe-csi-driver
     apiVersion: v1
     appVersion: 2.0.0
-    created: "2021-10-29T17:28:21.390808-04:00"
+    created: "2021-08-18T13:16:36.773884-07:00"
     description: A Helm chart for installing the HPE CSI Driver for Kubernetes
     digest: cabdb140acfb7519dd54db91029ed2682353bc108f221595176f8a9fad1765ad
     home: https://hpe.com/storage/containers
@@ -1168,7 +1162,7 @@ entries:
       catalog.cattle.io/release-name: hpe-csi-driver
     apiVersion: v1
     appVersion: 1.4.0
-    created: "2021-10-29T17:28:21.390057-04:00"
+    created: "2021-06-23T17:44:55.464439-07:00"
     description: A Helm chart for installing the HPE CSI Driver for Kubernetes
     digest: 487dca3d6bdf6961bf29425945b40974667a67723d2a8d9edbca87285e628793
     home: https://hpe.com/storage/containers
@@ -1191,7 +1185,7 @@ entries:
       catalog.cattle.io/release-name: hpe-csi-driver
     apiVersion: v1
     appVersion: 1.3.0
-    created: "2021-10-29T17:28:21.38941-04:00"
+    created: "2021-06-23T17:44:55.463517-07:00"
     description: A Helm chart for installing the HPE CSI Driver for Kubernetes
     digest: f5e5ce5e51d1b76ea667aca7e7689ccf9439825a30485fa2372ca0b9b86c7af0
     home: https://hpe.com/storage/containers
@@ -1218,7 +1212,7 @@ entries:
       catalog.cattle.io/release-name: hpe-flexvolume-driver
     apiVersion: v1
     appVersion: "3.1"
-    created: "2021-10-29T17:28:21.392196-04:00"
+    created: "2021-08-18T13:16:37.033438-07:00"
     description: A Helm chart for installing the HPE Volume Driver for Kubernetes
       FlexVolume plugin
     digest: 6e9695864158e559fa9408d0426e4a8cb6c0253fa2f99f75c126c8eedc4d9f82
@@ -1245,7 +1239,7 @@ entries:
       catalog.cattle.io/release-name: hpe-flexvolume-driver
     apiVersion: v1
     appVersion: "3.1"
-    created: "2021-10-29T17:28:21.391459-04:00"
+    created: "2021-06-23T17:44:55.4653-07:00"
     description: A Helm chart for installing the HPE Volume Driver for Kubernetes
       FlexVolume plugin
     digest: 50fc38e25308bf32156bed37bd549a5855309ac69945ff402fbe5ea809f88ddc
@@ -1273,7 +1267,7 @@ entries:
       catalog.cattle.io/release-name: instana-agent
     apiVersion: v1
     appVersion: "1.1"
-    created: "2021-10-29T17:28:21.393897-04:00"
+    created: "2021-06-23T17:44:55.466349-07:00"
     description: Instana Agent for Kubernetes
     digest: 164723f111d03fe67c775d916b0bdf29691b29005b8d93da7caa210cf43cab9c
     home: https://www.instana.com/
@@ -1306,7 +1300,7 @@ entries:
       catalog.cattle.io/release-name: k8s-triliovault-operator
     apiVersion: v1
     appVersion: 2.5.0
-    created: "2021-10-29T17:28:21.395809-04:00"
+    created: "2021-09-15T08:15:09.940974092Z"
     description: K8s-TrilioVault-Operator is an operator designed to manage the K8s-TrilioVault
       Application Lifecycle.
     digest: 20afaadae4dae6a17bb983d07745201a0bbbb5273d33f80c8de0ae4f418f9e85
@@ -1328,10 +1322,10 @@ entries:
       catalog.cattle.io/release-name: k8s-triliovault-operator
     apiVersion: v1
     appVersion: v2.1.0
-    created: "2021-10-29T17:28:21.395177-04:00"
+    created: "2021-08-23T10:18:02.335921701Z"
     description: K8s-TrilioVault-Operator is an operator designed to manage the K8s-TrilioVault
       Application Lifecycle.
-    digest: 337ecec05f2e9c405245261d6335db0abbf8a4bc27a0047d22fabe14639d9ee7
+    digest: 1567e3162767c366f546572d705de274a149f95dbc5c01026ad3d3f16121f089
     home: https://github.com/trilioData/k8s-triliovault-operator
     icon: https://www.trilio.io/wp-content/uploads/2021/01/Trilio-2020-logo-RGB-gray-green.png
     kubeVersion: '>= 1.18'
@@ -1350,7 +1344,7 @@ entries:
       catalog.cattle.io/release-name: k8s-triliovault-operator
     apiVersion: v1
     appVersion: v2.0.5
-    created: "2021-10-29T17:28:21.394561-04:00"
+    created: "2021-06-23T17:44:55.467976-07:00"
     description: K8s-TrilioVault-Operator is an operator designed to manage the K8s-TrilioVault
       Application Lifecycle.
     digest: e3272d943f70ec0c442c94920e4093fd0db9d1833711bcb8d23181f10098c000
@@ -1370,7 +1364,7 @@ entries:
       catalog.cattle.io/release-name: k8s-triliovault-operator
     apiVersion: v1
     appVersion: v2.0.2
-    created: "2021-10-29T17:28:21.396546-04:00"
+    created: "2021-06-23T17:44:55.469031-07:00"
     description: K8s-TrilioVault-Operator is an operator designed to manage the K8s-TrilioVault
       Application Lifecycle.
     digest: 24d6699876b92315e0b3ce5bd4f171f315ad2f963316e4d8d4e4f6993b3e9021
@@ -1392,7 +1386,7 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v1
     appVersion: "2.5"
-    created: "2021-10-29T17:28:21.401236-04:00"
+    created: "2021-08-30T20:35:35.658449-03:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1418,7 +1412,7 @@ entries:
       catalog.cattle.io/release-name: linkerd
     apiVersion: v1
     appVersion: stable-2.11.0
-    created: "2021-10-29T17:28:21.434618-04:00"
+    created: "2021-09-30T17:11:34.121631235-05:00"
     dependencies:
     - name: partials
       repository: file://../partials
@@ -1449,7 +1443,7 @@ entries:
       catalog.cattle.io/release-name: neuvector
     apiVersion: v1
     appVersion: 4.3.0
-    created: "2021-10-29T17:28:21.435599-04:00"
+    created: "2021-08-18T13:16:38.180657-07:00"
     description: Helm chart for NeuVector's core services
     digest: c4d77c557dd51a95bb5e4414ca421406bba12211050138a9af94cb2c0a70c00c
     home: https://neuvector.com
@@ -1471,7 +1465,7 @@ entries:
       catalog.cattle.io/release-name: nginx-ingress-controller
     apiVersion: v1
     appVersion: 2.0.0
-    created: "2021-10-29T17:28:21.438498-04:00"
+    created: "2021-10-07T11:09:15.113453+01:00"
     description: NGINX Ingress Controller
     digest: 1744c609a874094541f5a4a6258bd058301f44bdf15cba6dae38daf314763e39
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1495,7 +1489,7 @@ entries:
       catalog.cattle.io/release-name: nginx-ingress-controller
     apiVersion: v1
     appVersion: 1.12.0
-    created: "2021-10-29T17:28:21.437055-04:00"
+    created: "2021-09-23T09:40:55.898567+01:00"
     description: NGINX Ingress Controller
     digest: 4f374def0ef60a9c1e7e0b3867e21515b04d201a74d7e92fc7d7d12f653a1d18
     home: https://github.com/nginxinc/kubernetes-ingress
@@ -1520,7 +1514,7 @@ entries:
       catalog.cattle.io/release-name: nginx-service-mesh
     apiVersion: v2
     appVersion: 1.2.1
-    created: "2021-10-29T17:28:21.439815-04:00"
+    created: "2021-10-11T10:18:55.101934-06:00"
     description: NGINX Service Mesh
     digest: 75ef707cadb314629a881a4f1f2b9862e62e3930dbed27c4ec56a9f380cc1759
     icon: https://raw.githubusercontent.com/nginxinc/nginx-service-mesh/master/helm-chart/chart-icon.png
@@ -1547,7 +1541,7 @@ entries:
       catalog.cattle.io/release-name: nutanix-csi-storage
     apiVersion: v1
     appVersion: 2.4.1
-    created: "2021-10-29T17:28:21.442028-04:00"
+    created: "2021-10-12T13:49:40.882873+02:00"
     description: A Helm chart for installing Nutanix CSI Volume Driver
     digest: d6840660e6bba29919fcf749b5b10e72c5609ded0049d4f14b21a8b116f58d94
     home: https://github.com/nutanix/helm
@@ -1572,7 +1566,7 @@ entries:
       catalog.cattle.io/release-name: nutanix-csi-storage
     apiVersion: v1
     appVersion: 2.3.1
-    created: "2021-10-29T17:28:21.440476-04:00"
+    created: "2021-06-23T17:44:55.486353-07:00"
     description: A Helm chart for installing Nutanix CSI Volume Driver
     digest: 319009a424d1748dc5e7e32e3c0a424621f9555b3ccb0a583f204c561078ef29
     home: https://github.com/nutanix/helm
@@ -1599,7 +1593,7 @@ entries:
       catalog.cattle.io/release-name: openebs
     apiVersion: v2
     appVersion: 3.0.0
-    created: "2021-10-29T17:28:21.481891-04:00"
+    created: "2021-10-18T12:21:03.930751491+05:30"
     dependencies:
     - condition: cstor.enabled
       name: cstor
@@ -1654,7 +1648,7 @@ entries:
       catalog.cattle.io/release-name: openebs
     apiVersion: v2
     appVersion: 2.12.0
-    created: "2021-10-29T17:28:21.465512-04:00"
+    created: "2021-10-13T12:37:01.78737937+05:30"
     dependencies:
     - condition: cstor.enabled
       name: cstor
@@ -1704,7 +1698,7 @@ entries:
       catalog.cattle.io/release-name: openebs
     apiVersion: v2
     appVersion: 2.11.0
-    created: "2021-10-29T17:28:21.453831-04:00"
+    created: "2021-08-18T13:16:41.626388-07:00"
     dependencies:
     - condition: cstor.enabled
       name: cstor
@@ -1750,7 +1744,7 @@ entries:
       catalog.cattle.io/release-name: openebs
     apiVersion: v1
     appVersion: 1.12.0
-    created: "2021-10-29T17:28:21.443082-04:00"
+    created: "2021-06-23T17:44:55.4876-07:00"
     description: Containerized Storage for Containers
     digest: fa46a4405ad4ad523d246d175bb48fc237c556bf606bb3d0af724920dc166bf6
     home: http://www.openebs.io/
@@ -1777,7 +1771,7 @@ entries:
       catalog.cattle.io/release-name: portshift-operator
     apiVersion: v1
     appVersion: v0.1.3
-    created: "2021-10-29T17:28:21.482641-04:00"
+    created: "2021-08-18T13:16:42.045469-07:00"
     description: |
       Portshift cloud-native security platform is an agentless security solution for containerized applications
     digest: 6e26e02d78be00aa9b5033bb55351e1fa02d4deae3bb620c9f0633f147ddd7ad
@@ -1804,7 +1798,7 @@ entries:
       catalog.cattle.io/release-name: portshift-operator
     apiVersion: v1
     appVersion: v0.1.3
-    created: "2021-10-29T17:28:21.482279-04:00"
+    created: "2021-06-23T17:44:55.488041-07:00"
     description: |
       Portshift cloud-native security platform is an agentless security solution for containerized applications
     digest: e332d44b698d4327c96780453f7de16e32e7b905e9f8797b05c02ba268536ed0
@@ -1826,159 +1820,13 @@ entries:
     urls:
     - assets/portshift-operator/portshift-operator-0.1.000.tgz
     version: 0.1.000
-  speedscale-operator:
-  - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: Speedscale Operator
-      catalog.cattle.io/release-name: speedscale-operator
-    apiVersion: v1
-    appVersion: 0.9.27
-    created: "2021-10-29T17:28:21.485317-04:00"
-    description: The Speedscale Operator
-    digest: ce4e8562ff7027d3cd7d62f60ac2c03793f61505d9dcd5fd6c90b706e98f91f8
-    home: https://speedscale.com
-    icon: https://github.com/speedscale/speedscale/raw/main/logo/gold_logo_only.png
-    keywords:
-    - speedscale
-    - test
-    - testing
-    - regression
-    - reliability
-    - load
-    - replay
-    - network
-    - traffic
-    kubeVersion: '>= 1.17.0-0'
-    maintainers:
-    - email: support@speedscale.com
-      name: Speedscale Support
-    name: speedscale-operator
-    urls:
-    - assets/speedscale-operator/speedscale-operator-0.9.2701.tgz
-    version: 0.9.2701
-  - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: Speedscale Operator
-      catalog.cattle.io/release-name: speedscale-operator
-    apiVersion: v1
-    appVersion: 0.9.26
-    created: "2021-10-29T17:28:21.484845-04:00"
-    description: The Speedscale Operator
-    digest: 62030b4b08b947a9852d2c0f2287a382b25e0512125213e6c1dce92c96336322
-    home: https://speedscale.com
-    icon: https://github.com/swtch1/operator-helm/raw/master/logo/gold_logo_only.png
-    keywords:
-    - speedscale
-    - test
-    - testing
-    - regression
-    - reliability
-    - load
-    - replay
-    - network
-    - traffic
-    kubeVersion: '>= 1.17.0-0'
-    maintainers:
-    - email: support@speedscale.com
-      name: Speedscale Support
-    name: speedscale-operator
-    urls:
-    - assets/speedscale-operator/speedscale-operator-0.9.2601.tgz
-    version: 0.9.2601
-  - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: Speedscale Operator
-      catalog.cattle.io/release-name: speedscale-operator
-    apiVersion: v1
-    appVersion: 0.9.25
-    created: "2021-10-29T17:28:21.484381-04:00"
-    description: The Speedscale Operator
-    digest: 46fe1912efcf993d0fb5559673b850484e8a07ef9a5ad6057c8e4e516498be7c
-    home: https://speedscale.com
-    icon: https://github.com/swtch1/operator-helm/raw/master/logo/gold_logo_only.png
-    keywords:
-    - speedscale
-    - test
-    - testing
-    - regression
-    - reliability
-    - load
-    - replay
-    - network
-    - traffic
-    kubeVersion: '>= 1.17.0-0'
-    maintainers:
-    - email: support@speedscale.com
-      name: Speedscale Support
-    name: speedscale-operator
-    urls:
-    - assets/speedscale-operator/speedscale-operator-0.9.2501.tgz
-    version: 0.9.2501
-  - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: Speedscale Operator
-      catalog.cattle.io/release-name: speedscale-operator
-    apiVersion: v1
-    appVersion: 0.9.24
-    created: "2021-10-29T17:28:21.483941-04:00"
-    description: The Speedscale Operator
-    digest: e06e496642c0e17ef2b17bfa8710b4da652babeb5e6811e58c74e0645f8816b6
-    home: https://speedscale.com
-    icon: https://github.com/speedscale/speedscale/raw/main/logo/gold_logo_only.png
-    keywords:
-    - speedscale
-    - test
-    - testing
-    - regression
-    - reliability
-    - load
-    - replay
-    - network
-    - traffic
-    kubeVersion: '>= 1.17.0-0'
-    maintainers:
-    - email: support@speedscale.com
-      name: Speedscale Support
-    name: speedscale-operator
-    urls:
-    - assets/speedscale-operator/speedscale-operator-0.9.2400.tgz
-    version: 0.9.2400
-  - annotations:
-      catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: Speedscale Operator
-      catalog.cattle.io/release-name: speedscale-operator
-    apiVersion: v1
-    appVersion: 0.9.24
-    created: "2021-10-29T17:28:21.483497-04:00"
-    description: The Speedscale Operator
-    digest: fa1bf2b7cb3105227ef41daae3b662ac14bd6aaeb57b66c691787c046e56ecc1
-    home: https://speedscale.com
-    icon: https://github.com/speedscale/speedscale/raw/main/logo/gold_logo_only.png
-    keywords:
-    - speedscale
-    - test
-    - testing
-    - regression
-    - reliability
-    - load
-    - replay
-    - network
-    - traffic
-    kubeVersion: '>= 1.17.0-0'
-    maintainers:
-    - email: support@speedscale.com
-      name: Speedscale Support
-    name: speedscale-operator
-    urls:
-    - assets/speedscale-operator/speedscale-operator-0.1.0.tgz
-    version: 0.1.0
   sysdig:
   - annotations:
       catalog.cattle.io/certified: partner
       catalog.cattle.io/release-name: sysdig
     apiVersion: v1
     appVersion: 10.3.0
-    created: "2021-10-29T17:28:21.487548-04:00"
+    created: "2021-06-23T17:44:55.489923-07:00"
     description: Sysdig Monitor and Secure agent
     digest: 37cef38a742229947b02dfc764da69ec382b260e062372f2fb7cc3056a31790f
     home: https://www.sysdig.com/
@@ -2015,7 +1863,7 @@ entries:
       catalog.cattle.io/release-name: traefik
     apiVersion: v2
     appVersion: 2.5.3
-    created: "2021-10-29T17:28:21.489205-04:00"
+    created: "2021-10-14T14:37:44.512454+02:00"
     description: A Traefik based Kubernetes ingress controller
     digest: 8bedf1a3050457c6df3444da682fea8adf842e033b07c26357c79a5383848d80
     home: https://traefik.io/
@@ -2046,7 +1894,7 @@ entries:
       catalog.cattle.io/release-name: universal-crossplane
     apiVersion: v1
     appVersion: 1.3.1001
-    created: "2021-10-29T17:28:21.492544-04:00"
+    created: "2021-09-20T22:19:39.177904+03:00"
     description: Upbound Universal Crossplane (UXP) is Upbound's official enterprise-grade
       distribution of Crossplane.
     digest: 22f06bca40a4717fdb62c3f7a76716ec525d96d68651f48cecad6441f99bb4da
@@ -2090,7 +1938,7 @@ entries:
       catalog.cattle.io/release-name: universal-crossplane
     apiVersion: v1
     appVersion: 1.2.3002
-    created: "2021-10-29T17:28:21.491472-04:00"
+    created: "2021-08-22T23:25:13.440694+03:00"
     description: 'Upbound Universal Crossplane (UXP) is Upbound''s official enterprise-grade
       distribution of Crossplane. It''s fully compatible with upstream Crossplane,
       open source, capable of connecting to Upbound Cloud for real-time dashboard
@@ -2137,7 +1985,7 @@ entries:
       catalog.cattle.io/release-name: universal-crossplane
     apiVersion: v1
     appVersion: 1.2.2001
-    created: "2021-10-29T17:28:21.490349-04:00"
+    created: "2021-06-23T17:44:55.491386-07:00"
     description: 'Upbound Universal Crossplane (UXP) is Upbound''s official enterprise-grade
       distribution of Crossplane. It''s fully compatible with upstream Crossplane,
       open source, capable of connecting to Upbound Cloud for real-time dashboard
@@ -2177,4 +2025,4 @@ entries:
     urls:
     - assets/universal-crossplane/universal-crossplane-1.2.200100.tgz
     version: 1.2.200100
-generated: "2021-10-29T17:28:21.275309-04:00"
+generated: "2021-06-23T17:44:55.374388-07:00"
