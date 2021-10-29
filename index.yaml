@@ -1856,6 +1856,35 @@ entries:
       catalog.cattle.io/display-name: Speedscale Operator
       catalog.cattle.io/release-name: speedscale-operator
     apiVersion: v1
+    appVersion: 0.9.26
+    created: "2021-10-29T08:01:08.155204-04:00"
+    description: The Speedscale Operator
+    digest: 62030b4b08b947a9852d2c0f2287a382b25e0512125213e6c1dce92c96336322
+    home: https://speedscale.com
+    icon: https://github.com/swtch1/operator-helm/raw/master/logo/gold_logo_only.png
+    keywords:
+    - speedscale
+    - test
+    - testing
+    - regression
+    - reliability
+    - load
+    - replay
+    - network
+    - traffic
+    kubeVersion: '>= 1.17.0-0'
+    maintainers:
+    - email: support@speedscale.com
+      name: Speedscale Support
+    name: speedscale-operator
+    urls:
+    - assets/speedscale-operator/speedscale-operator-0.9.2601.tgz
+    version: 0.9.2601
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Speedscale Operator
+      catalog.cattle.io/release-name: speedscale-operator
+    apiVersion: v1
     appVersion: 0.9.25
     created: "2021-10-29T07:39:12.7084-04:00"
     description: The Speedscale Operator
