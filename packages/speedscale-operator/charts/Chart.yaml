@@ -22,4 +22,4 @@ maintainers:
 - email: support@speedscale.com
   name: Speedscale Support
 name: speedscale-operator
-version: 0.1.0
+version: 0.9.24
