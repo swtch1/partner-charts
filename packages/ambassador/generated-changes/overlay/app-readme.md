@@ -1,5 +1,7 @@
 # Ambassador Edge Stack and Emissary Ingress Chart
 
+NEW
+
 [Ambassador Edge Stack](https://www.getambassador.io/products/edge-stack/) and its open source CNCF counterpart [Emissary-Ingress](https://www.getambassador.io/products/api-gateway/) are Kubernetes native, high-performance Ingress controllers designed with GitOps workflows and developer experience in mind.  The Edge Stack allows users to manage [Authentication](https://www.getambassador.io/docs/edge-stack/latest/topics/using/filters/), [Rate Limits](https://www.getambassador.io/docs/edge-stack/latest/topics/using/rate-limits/rate-limits/), [TLS](https://www.getambassador.io/docs/edge-stack/latest/topics/running/tls/) and more with easy-to-use resources for [managing your APIs](https://www.getambassador.io/docs/edge-stack/latest/topics/using/intro-mappings/).
 
 ## Service Catalog
