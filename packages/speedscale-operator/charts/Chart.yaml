@@ -21,5 +21,5 @@ kubeVersion: '>= 1.17.0-0'
 maintainers:
 - email: support@speedscale.com
   name: Speedscale Support
-name: Speedscale Operator
+name: speedscale-operator
 version: 0.1.0
