@@ -2183,6 +2183,36 @@ entries:
       catalog.cattle.io/display-name: Speedscale Operator
       catalog.cattle.io/release-name: speedscale-operator
     apiVersion: v1
+    appVersion: 0.9.124
+    created: "2021-11-23T16:20:16.065533-05:00"
+    description: Stress test your APIs with real world scenarios.  Collect and replay
+      traffic without scripting.
+    digest: da218e25b39c56420a2d632cf3320a3c6030d845b6ce79f9fb99ce5f11b4d888
+    home: https://speedscale.com
+    icon: https://raw.githubusercontent.com/speedscale/assets/main/logo/gold_logo_only.png
+    keywords:
+    - speedscale
+    - test
+    - testing
+    - regression
+    - reliability
+    - load
+    - replay
+    - network
+    - traffic
+    kubeVersion: '>= 1.17.0-0'
+    maintainers:
+    - email: support@speedscale.com
+      name: Speedscale Support
+    name: speedscale-operator
+    urls:
+    - assets/speedscale-operator/speedscale-operator-0.9.12402.tgz
+    version: 0.9.12402
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Speedscale Operator
+      catalog.cattle.io/release-name: speedscale-operator
+    apiVersion: v1
     appVersion: 0.9.123
     created: "2021-11-23T13:40:21.524393-05:00"
     description: Stress test your APIs with real world scenarios.  Collect and replay
